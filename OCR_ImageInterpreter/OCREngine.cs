@@ -11,6 +11,11 @@ namespace OCR_ImageInterpreter
 {
     class OCREngine
     {
+        /// <summary>
+        /// Create IronOCR object and convert snipped image to text
+        /// </summary>
+        /// <param name="image">Snipped image to convert to text</param>
+        /// <returns></returns>
         public static string ConvertImageToText(Bitmap image)
         {
             var Ocr = new AdvancedOcr()

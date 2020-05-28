@@ -20,6 +20,10 @@ namespace OCR_ImageInterpreter
             Snipping.SnippingTool.Snip();
         }
 
+        /// <summary>
+        /// Check if image clipping is complete and image has been stored
+        /// </summary>
+        /// <returns></returns>
         public static bool IsClipComplete()
         {
             int count = 0;
@@ -27,7 +31,7 @@ namespace OCR_ImageInterpreter
             {
                 Thread.Sleep(500);
                 count++;
-                if (count > 100)
+                if (count > 100) //break loop if snipping takes too long
                 {
                     return false;
                 }
@@ -35,6 +39,11 @@ namespace OCR_ImageInterpreter
             return Snipping.SnippingTool.clipComplete;
         }
 
+        /// <summary>
+        /// Store image and copy image to clipboard
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private static void OnAreaSelected(object sender, EventArgs e)
         {
             bmp = (Bitmap)Snipping.SnippingTool.Image;

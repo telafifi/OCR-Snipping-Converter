@@ -105,6 +105,9 @@ namespace OCR_ImageInterpreter
             return false;
         }
 
+        /// <summary>
+        /// Perform stored actions to GUI during run
+        /// </summary>
         public void DoEvents()
         {
             DispatcherFrame frame = new DispatcherFrame(true);
