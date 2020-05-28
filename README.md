@@ -6,5 +6,5 @@ The application creates a snipping tool that collects the sizes of all active mo
 
 ## How to run
 1. Click on the **Snip image on screen to convert to text** button
-2. Press down mouse and draw a rectangular area to process
-3. Once complete, the image will be shown on the HUI and the text will be processed and placed under the **Output** field
+2. Press down mouse and draw a rectangular area to process. Release mouse click when required area has been covered.
+3. Once done, the image will be shown on the HUI and the text will be processed and placed under the **Output** field
