@@ -30,5 +30,6 @@ To perform the image scan, this application uses the IronOCR API developed by Ir
 ## Output Examples
 Original Image             |  Output application with text
 :-------------------------:|:-------------------------:
+|<img width=200/>|<img width=500/>|
 ![Potter Before](Images/Potter_Orig.PNG)  |  ![Potter After](/Images/Potter_After.PNG)
 ![AISC Before](Images/AISC_Orig.PNG)  |  ![AISC After](/Images/AISC_After.PNG)
