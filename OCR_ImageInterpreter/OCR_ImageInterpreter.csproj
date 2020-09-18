@@ -60,7 +60,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="ImageProcessing.cs" />
+    <Compile Include="Snipping\ImageProcessing.cs" />
     <Compile Include="Snipping\DeviceInfo.cs" />
     <Compile Include="Snipping\ScreenHelper.cs" />
     <Compile Include="Snipping\SnippingTool.cs">
